@@ -6,8 +6,9 @@ echo "<table border='1' width='300px' height='auto' style='text-align:center'>";
 echo "<tr>";
     echo "<td> Nome</td>";
     echo "<td> Nota </td>";
-    echo "<td> Situação </td>";
-echo "</tr>";
+    echo "<td> Situação</td>";
+echo "</tr>";    
+
 
 
 //ordenando a 2ª linha e colunas(1° aluno)
