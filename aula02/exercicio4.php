@@ -5,22 +5,25 @@
 $texto = "Curso Tecnico em Desenvolvimento de Sistemas";
 
 //1. Remova os espaços do início e fim
-$texto = trim($texto);
+$texto1 = trim($texto);
 
 //2. Converta para letras maiúsculas
-$texto = strtoupper($texto);
+$texto2 = strtoupper($texto1);
 
 //3. Conte quantos caracteres tem (depois de remover os espaços)
-$quantidadeCaracteres = strlen($texto);
+$quantidadeCaracteres = strlen($texto1);
 
 //4. Extraia apenas a palavra 'Desenvolvimento' usando substr()
-$palavra = substr($texto, 18, 13);
+$palavra = substr($texto2, 18, 13);
 
 //5. Substitua 'Sistemas' por 'Software'
-$texto = str_replace('SISTEMAS', 'SOFTWARE', $texto);
+$texto3 = str_replace('SISTEMAS', 'SOFTWARE', $texto2);
 
 //6. Exiba cada resultado em uma linha separada com <br>
-echo $texto . "<br>";
+
+echo $texto1 . "<br>";
+echo $texto2 . "<br>";
+echo $texto3 . "<br>";
 echo $quantidadeCaracteres . "<br>";
 echo $palavra . "<br>";
 
