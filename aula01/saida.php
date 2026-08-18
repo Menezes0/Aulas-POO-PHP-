@@ -1,7 +1,7 @@
 <?php
     echo 'Mirian<br>';
 
-    //interpolação aspas duplas escreve o conteudo da variavel, aspas simples escreve o literal nome da variavel
+    //interpolação aspas duplas escreve o conteudo da variavel, aspas simples escreve o literal da variavel
     $turma = "2° Período de Análise e Desenvolvimento de Sistemas";
     echo "Turma: {$turma}<br>";
 

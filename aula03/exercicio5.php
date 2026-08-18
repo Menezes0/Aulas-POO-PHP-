@@ -1,6 +1,6 @@
 <?php
 
-//Crie um script que declare as 4 notas bimestrais de um aluno (valores fixos no código). 
+// Crie um script que declare as 4 notas bimestrais de um aluno (valores fixos no código). 
 // Calcule e exiba: • A média aritmética com 2 casas decimais • A maior nota (use max()) • A menor nota (use min()) 
 // Se a média >= 6.0: exiba 'APROVADO' em verde (use span com style) 
 // Se a média < 6.0: exiba 'REPROVADO' em vermelho 
@@ -21,6 +21,7 @@ $mediaFormatada = number_format ($media, 2, '.', '');
 
 // Exibição dos resultados estruturados em HTML
 echo "<h2>Resultado do Aluno</h2>";
+
 echo "Notas bimestrais abaixo:<br>";
 echo "1° Bimestre: $nota1 <br>";
 echo "2° Bimestre: $nota2 <br>";
@@ -33,7 +34,7 @@ echo "Maior Nota: $maiorNota <br>";
 echo "Menor Nota: $menorNota <br>";
 
 echo "</br>";
-// Verificação do status de aprovação
+// Verificação de aprovação
 if ($media >= 6.0) {
     echo "Status: <span style='color: green; font-weight: bold;'>APROVADO</span><br>";
 } 

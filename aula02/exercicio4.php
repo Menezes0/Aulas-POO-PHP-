@@ -1,6 +1,11 @@
 <?php
 
-//Dado o texto: '  Curso Tecnico em Desenvolvimento de Sistemas  ' . Remova os espaços do início e fim 2. Converta para letras maiúsculas 3. Conte quantos caracteres tem (depois de remover os espaços) 4. Extraia apenas a palavra 'Desenvolvimento' usando substr() 5. Substitua 'Sistemas' por 'Software' 6. Exiba cada resultado em uma linha separada com <br> 
+// Dado o texto: '  Curso Tecnico em Desenvolvimento de Sistemas  ' . Remova os espaços do início e fim 
+// 2. Converta para letras maiúsculas 
+// 3. Conte quantos caracteres tem (depois de remover os espaços) 
+// 4. Extraia apenas a palavra 'Desenvolvimento' usando substr() 
+// 5. Substitua 'Sistemas' por 'Software' 
+// 6. Exiba cada resultado em uma linha separada com <br> 
 
 $texto = "Curso Tecnico em Desenvolvimento de Sistemas";
 
