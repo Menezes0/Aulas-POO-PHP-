@@ -36,7 +36,8 @@ echo "</br>";
 // Verificação do status de aprovação
 if ($media >= 6.0) {
     echo "Status: <span style='color: green; font-weight: bold;'>APROVADO</span><br>";
-} else {
+} 
+else {
     echo "Status: <span style='color: red; font-weight: bold;'>REPROVADO</span><br>";
     
     // Cálculo da nota total que faltou para atingir a média 6.0
