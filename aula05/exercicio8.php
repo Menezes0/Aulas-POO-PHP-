@@ -1,5 +1,5 @@
 <?php
-// Função para verificar se um número é primo
+// verifica se é primo
 function Primo($numero) {
     if ($numero < 2) {
         return false;
@@ -16,7 +16,7 @@ function Primo($numero) {
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>Tabuadas de 1 a 10</title>
+<title>Exercicio 08 Apostila - Tabuadas</title>
 <style>
     body {
         font-family: "Times New Roman", serif;
