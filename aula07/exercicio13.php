@@ -36,3 +36,10 @@ $livros = [
     new Livro("A Revolução dos Bichos", "George Orwell", 1945, 24.90),
     new Livro("O Pequeno Príncipe", "Antoine de Saint-Exupéry", 1943, 34.90)
 ];
+
+echo "<h2>Lista de Livros</h2>";
+echo "<ul>";
+foreach ($livros as $livro) {
+    echo "<li>" . $livro->resumo() . "</li>";
+}
+echo "</ul>";
