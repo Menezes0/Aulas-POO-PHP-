@@ -22,6 +22,17 @@ class Livro {
     }
 
     public function resumo(): string {
-        return "Título: {$this->titulo}, Autor: {$this->autor}, Ano de Publicação: {$this->anoPublicacao}, Preço: R$ " . number_format($this->preco, 2, ',', '.');
+        return "Título: {$this->titulo}, 
+                Autor: {$this->autor}, 
+                Ano de Publicação: {$this->anoPublicacao}, 
+                Preço: R$ " . number_format($this->preco, 2, ',', '.');
     }
-}'
+}
+
+$livros = [
+    new Livro("1984", "George Orwell", 1949, 29.90),
+    new Livro("O Senhor dos Anéis", "J.R.R. Tolkien", 1954, 59.90),
+    new Livro("Dom Casmurro", "Machado de Assis", 1899, 19.90),
+    new Livro("A Revolução dos Bichos", "George Orwell", 1945, 24.90),
+    new Livro("O Pequeno Príncipe", "Antoine de Saint-Exupéry", 1943, 34.90)
+];
